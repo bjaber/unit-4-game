@@ -14,16 +14,23 @@ $(document).ready (function () {
 
     comtNumber = Math.floor(Math.random()*99)+25;
     console.log(comtNumber);
+    $(".computerGen").html("Target Number: " + comtNumber);
 
     for (var i = 0; i < 4; i++) {
-        var randomNumber = Math.floor(Math.random() *12);
+        var randomNumber = Math.floor(Math.random() *12)+1;
         
         var crystalLoop =$("<div>");
         $(".crystals").append(crystalLoop);
         $(crystalLoop).attr({
-            "cardValue": randomNumber
-        })
+            "cardValue": randomNumber,
+            "class":'crystal'
+        });
     };
+
+    $(".crystal").on("click",function(){
+    console.log($(this).attr("cardValue"));
+
+    })
 
 
 
