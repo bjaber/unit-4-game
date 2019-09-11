@@ -9,3 +9,6 @@
 .crystals{
     display:flex;
 }
+body{
+    background-image: "assets/images/livingRoomSimpsons.jpg";
+}
