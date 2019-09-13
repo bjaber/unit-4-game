@@ -20,7 +20,6 @@ $(document).ready(function () {
 
 
     }
-
     function crystalNumberGenerator() {
         $('.crystals').empty();
         for (var i = 0; i < 4; i++) {

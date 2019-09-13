@@ -9,6 +9,33 @@
 .crystals{
     display:flex;
 }
+.backGroundPic{
+    background-image: url("../images/livingRoomSimpsons.jpg");
+    background-repeat: no-repeat;
+    background-position:center;
+    background-attachment: fixed;
+    background-size: auto;
+    padding-right:15px;
+}
 body{
-    background-image: "assets/images/livingRoomSimpsons.jpg";
+background-color: blueviolet;
+
+}
+.div1{
+    border:2px solid black;
+    height:800px;
+
+}
+h1{
+    text-align: center;
+
+}
+.div2{
+    border: 1px solid black;
+}
+.directions{
+font-size: large;
+color: white;
+font-weight: 200
+
 }
